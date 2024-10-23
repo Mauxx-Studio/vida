@@ -3,7 +3,7 @@ import numpy as np
 
 pygame.init()
 
-grid = (200, 100)
+grid = (200, 120)
 cellDim = 5
 
 screen = pygame.display.set_mode((grid[0]*cellDim,grid[1]*cellDim))
